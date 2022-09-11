@@ -13,6 +13,9 @@ module.exports = {
 			width: {
 				85: '350px',
 			},
+			scale: {
+				102: '1.02',
+			},
 		},
 	},
 	plugins: [],
