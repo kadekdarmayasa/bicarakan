@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
+.hamburger-menu.nav-menu span:nth-child(1) {
+	@apply translate-y-[8px] rotate-45;
+}
+
+.hamburger-menu.nav-menu span:nth-child(2) {
+	@apply opacity-0;
+}
+
+.hamburger-menu.nav-menu span:nth-child(3) {
+	@apply -translate-y-[7px] -rotate-45;
+}
+
+.hamburger-menu.nav-menu ~ .nav-link {
+	@apply opacity-100;
+}
