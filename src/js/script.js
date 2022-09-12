@@ -7,8 +7,8 @@ window.addEventListener('load', function () {
 
 window.addEventListener('scroll', function () {
 	if (Math.floor(this.document.documentElement.scrollTop) > 152) {
-		this.document.querySelector('.navbar').classList.add('bg-white/90', 'backdrop-blur-sm');
+		this.document.querySelector('.navbar').classList.add('bg-[#fbebf6e6]', 'backdrop-blur-lg', 'shadow-sm');
 	} else {
-		this.document.querySelector('.navbar').classList.remove('bg-white/90', 'backdrop-blur-sm');
+		this.document.querySelector('.navbar').classList.remove('bg-[#fbebf6e6]', 'backdrop-blur-lg', 'shadow-sm');
 	}
 });
