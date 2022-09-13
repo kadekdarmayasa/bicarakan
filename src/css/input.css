@@ -21,3 +21,12 @@ html {
 .hamburger-menu.nav-menu ~ .nav-link {
 	@apply opacity-100;
 }
+
+.hamburger-menu span {
+	@apply w-8 h-[3px] bg-btnColor block rounded-lg transition-all duration-300 ease-in-out;
+}
+
+.nav-item a.active,
+.nav-item a:hover {
+	@apply underline underline-offset-8 decoration-btnColor;
+}
